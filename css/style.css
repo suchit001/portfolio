@@ -8861,8 +8861,8 @@ h1, h2, h3, h4, h5,
     margin-bottom: 10px;
     color: #ffbd39; }
   .services-1:hover {
-    background: #ffbd39; }
-    .services-1:hover .icon i {
+    background: #5a5a5a; }
+    .services-1:hover .icon i img{
       color: #fff; }
     .services-1:hover h3 {
       color: #000000; }
@@ -9685,3 +9685,7 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.skill-card {
+  aspect-ratio: 1;
+}
