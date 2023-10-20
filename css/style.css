@@ -8824,8 +8824,8 @@ h1, h2, h3, h4, h5,
   -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17); }
   .services-1 .icon {
-    display: block;
-    margin-bottom: 30px; }
+    display: block; }
+    /* margin-bottom: 30px; } */
     .services-1 .icon i {
       font-size: 60px;
       line-height: 1.0;
@@ -8928,6 +8928,9 @@ h1, h2, h3, h4, h5,
     font-weight: 900; }
     .ftco-hireme h2 span {
       color: #ffbd39; }
+      .ftco-hireme p {
+        color: whitesmoke;
+      }
 
 @media (min-width: 992px) {
   .margin-top {
@@ -8970,7 +8973,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: 0;
-    background: #ffbd39;
+    background: #000000;
     z-index: -1;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
